@@ -1,0 +1,104 @@
+Syntax highlighting for the code.
+  Rather than just downloading it, show the contents to allow people to browse.
+  Identify the language(s) of the code.
+
+Allow people to filter on papers with particular type of code.
+
+Put categories on papers and allow people to browse categories.
+
+Allow people to comment on the code and make suggestions for improvements.
+  
+Identify the meta-data that can be useful for viewers and programmatic viewers
+
+Identify which "packages/libraries" the code  for a paper uses and
+ generate citations and statistics for the developers of those packages 
+ if they are not cited. 
+    e.g. find require() and library() calls in R code (CodeDepends will do this)
+         import commands in Python and Java
+         ldd/otool for C/C++
+       
+ Suggest citations for the authors.
+
+ Allow the researchers to upload code pre-submission to get suggested citations based on code analysis.
+
+Caching of all intermediate results and make them accessible.
+
+Allow viewer to run from a particular expression in a script,  supplying/modifying one or more inputs.
+  (We have this concept in CodeDepends and Gabe's caching.)
+
+
+Debugging by differences.
+  If somebody gets a different result, let them dump their data and link to it
+  with Session info, compiler info, hardware info, etc.
+  Then we can use this potentially to identify problems.
+
+Spam
+  What happens when people upload a nonsense compendium
+  Run code gratuitously.
+
+Cluster based on text analysis (and meta-data).
+
+Identify language of the code for the viewer.
+
+API to programmatically query the set of documents and their information.
+
+Add focus  not to reproducability but to creating an environment of co-discovery, exploration.
+  I.e. go beyond just confirmation and adding a "yes it worked for me".
+
+How does multiple viewers re-running the same code for a compendium
+  provide more information. They are running the code on the same virtual setup you provide.
+  The results should be identical.
+ 
+  So allow them to run the code on their machines an check if the results are the same
+   and if not, they (automatically) provide their session/hardware/software information.
+
+
+Shouldn't the author submit the results in some form (e.g. Rda file, python pickle, etc.
+ or PMML or whatever)
+
+
+When the Abstract/details cite a paper, put a link to that.
+
+
+What's the vision?
+  Build a community of researchers? community of readers?
+  community of contributors that augment/add to the work of researchers?
+  Let people help the researcher.
+
+Multiple related sites that provide different views of the data to different types of readers/viewers.
+  Community site that shows community involvement
+  "Publication" site that just shows author's view.
+
+For Data (and code) buttons, provide a tooltip that 
+tells me about it, e.g. the list of files in the zip file.
+
+
+Number of views, comments, runs of code,
+  Try to get people to target those that haven't been run.
+
+A theme is to encourage / incentivize researchers to post
+code and data and have other people run to identify problems.
+  Many eyes find the cause of the bug, but many runs identifies the anomalies.
+
+
+Version information for data.
+  Do you allow authors to update the information.
+
+  The F1000Research site has some good ideas. (And others not so great/limited.)
+
+
+Based on readers' activities to comment on code and suggest changes
+allow up/down-voting in the StackOverflow  style.
+
+Use the reputations of contributors, 
+
+
+Copy the bibliography from the paper to actual links on this site.
+ Allow authors to upload .bib/etc. information.
+  
+
+Take JSS or a specific github repository as an example
+  (different sort of articles as it is actually software rather than scripts
+   to get particular results)
+  Allow people to comment on aspects of the code
+  Person identifies
